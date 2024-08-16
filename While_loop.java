@@ -14,5 +14,6 @@ public class While_loop{
         }
 
         System.out.println("Hello "+name);
+        scanner.close();
     }
 }

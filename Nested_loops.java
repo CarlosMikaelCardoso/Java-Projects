@@ -21,5 +21,6 @@ public class Nested_loops{
                 System.out.print(symbol);
             }
         }
+        scanner.close();
     }
 }
