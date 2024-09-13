@@ -1,10 +1,12 @@
 public class Main{
     public static void main(String[] args){
+        Pizza pizza = new Pizza("Thicc crust", "Tomato", "Mozzarella");
 
-        Human human1 = new Human("Mikael", 19, 60);
+        System.out.println("Here are the ingredients of your pizza: ");
+        System.out.println(pizza.Bread);
+        System.out.println(pizza.Sauce);
+        System.out.println(pizza.Cheese);
+        System.out.println(pizza.Topping);
 
-        System.out.println(human1.name);
-        System.out.println(human1.age);
-        System.out.println(human1.weight);
     }
 }
