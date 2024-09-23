@@ -12,12 +12,12 @@ public class Livro_main {
         System.out.println("Lista de livros:");
         listarLivros(listaDeLivros);
 
-        // Exemplo de busca
+        // Cita todos os livros da lista
         System.out.print("Digite o título do livro que você deseja buscar: ");
         String tituloBuscado = scanner.nextLine();
         buscarLivroPorTitulo(listaDeLivros, tituloBuscado);
         
-        // Exemplo de busca pelo ISBN
+        // Busca pelo ISBN
         System.out.print("Digite o ISBN do livro que você deseja buscar: ");
         String isbnBuscado = scanner.nextLine();
         buscarLivroPorIsbn(listaDeLivros, isbnBuscado);
