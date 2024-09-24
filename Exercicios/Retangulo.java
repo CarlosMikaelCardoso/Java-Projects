@@ -1,8 +1,9 @@
-public class Triangulo {
+package Exercicios;
+public class Retangulo {
     int base;
     int altura;
 
-    Triangulo (int base, int altura){
+    Retangulo (int base, int altura){
         this.altura = altura;
         this.base = base;
     }

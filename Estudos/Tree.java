@@ -1,3 +1,4 @@
+package Estudos;
 public class Tree{
     public static void main(String[] args) {
         //I gonna plant a tree
