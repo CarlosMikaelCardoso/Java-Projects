@@ -1,3 +1,4 @@
+package Estudos;
 public class Lo{
     public static void main(String[] args) {
         // Logical Operators = Use to connect two or more expressions

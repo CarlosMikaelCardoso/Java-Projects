@@ -1,3 +1,4 @@
+package Estudos;
 import java.util.Random;
 public class DiceRoller {
     DiceRoller(){

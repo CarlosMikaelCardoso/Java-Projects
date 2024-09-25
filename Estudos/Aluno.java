@@ -1,3 +1,4 @@
+package Estudos;
 class Aluno{
     //Atributo
     private String Nome; 

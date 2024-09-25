@@ -1,3 +1,4 @@
+package Exercicios;
 import java.util.Random;
 
 public class GeradorDeCodigo {

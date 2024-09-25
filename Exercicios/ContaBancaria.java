@@ -1,3 +1,4 @@
+package Exercicios;
 public class ContaBancaria {
     String numeroConta;
     String titular;

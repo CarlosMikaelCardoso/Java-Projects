@@ -1,3 +1,4 @@
+package Estudos;
 public class Story {
     public static void main(String[] args) {
         int myNumber = 7;

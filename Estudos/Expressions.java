@@ -1,3 +1,4 @@
+package Estudos;
 public class Expressions{
     public static void main(String[] args) {
         /*Expressions = opereands + operators

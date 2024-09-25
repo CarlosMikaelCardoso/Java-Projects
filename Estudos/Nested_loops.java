@@ -1,3 +1,4 @@
+package Estudos;
 import java.util.Scanner;
 
 public class Nested_loops{
