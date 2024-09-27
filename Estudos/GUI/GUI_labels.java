@@ -13,7 +13,7 @@ class GUI_labels {
 
     public static void main(String[] args) {
         // Certifique-se de que o caminho da imagem está correto
-        ImageIcon image = new ImageIcon("C:\\Users\\Administrator\\Documents\\Codes\\Java\\Estudos\\GUI\\confia.png");
+        ImageIcon image = new ImageIcon("C:\\Users\\202304623015\\Documents\\Code\\Java\\Estudos\\GUI\\confia.png");
         Border border = BorderFactory.createLineBorder(Color.green);
         JLabel label = new JLabel();
         label.setText("Bro, do you even code?");
