@@ -1,4 +1,4 @@
-package Estudos;
+package Estudos.GUI;
 import javax.swing.JOptionPane;
 
 public class GUI {
