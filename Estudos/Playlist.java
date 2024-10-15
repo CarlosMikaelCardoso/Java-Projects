@@ -28,5 +28,6 @@ public class Playlist {
         favoriteSongs.add(total); // Adiciona a música à lista
         
         System.out.println("Música adicionada à playlist: " + total);
+        scanner.close();
     }
 }
