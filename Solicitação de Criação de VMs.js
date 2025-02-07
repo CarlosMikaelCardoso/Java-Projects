@@ -81,7 +81,7 @@ function criacao_vm(resposta) {
 
   // Verifica se o usuário deseja adicionar mais VM
   var opcao1 = resposta["Você solicitou a criação de 1 VM. Deseja solicitar mais uma VM?"];
-  if (opcao == "Sim"){
+  if (opcao1 == "Sim"){
     // Detalhes da primeira VM
     nomeVm2 = resposta["Nome da VM 2:"] ? resposta["Nome da VM 2:"][0] : "Não fornecido";
     sistemaOperacional2 = resposta["Sistema Operacional 2:"] ? resposta["Sistema Operacional 2:"][0] : "Não fornecido";
@@ -99,7 +99,7 @@ function criacao_vm(resposta) {
   }
   // Verifica se o usuário deseja adicionar mais uma VM
   var opcao2 = resposta["Você solicitou a criação de 2 VMs. Deseja solicitar mais uma VM?"];
-  if (opcao == "Sim"){
+  if (opcao2 == "Sim"){
     // Detalhes da nova VM (mesmas perguntas para a nova VM)
     nomeVm3 = resposta["Nome da VM 3:"] ? resposta["Nome da VM 3:"][0] : "Não fornecido";
     sistemaOperacional3 = resposta["Sistema Operacional 3:"] ? resposta["Sistema Operacional 3:"][0] : "Não fornecido";
@@ -118,7 +118,7 @@ function criacao_vm(resposta) {
   }
 
   // Verifica se o usuário deseja adicionar mais uma VM
-  var opcao = resposta["Você solicitou a criação de 3 VMs. Deseja solicitar mais uma VM?"];
+  var opcao3 = resposta["Você solicitou a criação de 3 VMs. Deseja solicitar mais uma VM?"];
   if (opcao3 == "Sim"){
     // Detalhes da nova VM (mesmas perguntas para a nova VM)
     nomeVm4 = resposta["Nome da VM 4:"] ? resposta["Nome da VM 4:"][0] : "Não fornecido";
