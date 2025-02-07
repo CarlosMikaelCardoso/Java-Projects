@@ -76,7 +76,7 @@ function criacao_vm(resposta) {
                       "💿 **Sistema Operacional**: " + sistemaOperacional + "\n" +
                       "🛠️ **Memória RAM**: " + quantoDeRam + "\n" +
                       "💾 **Armazenamento**: " + quantoDeArmazenamento + "\n" +
-                      "⚙️ **CPUs**: " + cpus + "\n";
+                      "⚙️ **CPUs**: " + cpus + "\n" + "\n" ;
 
 
   // Verifica se o usuário deseja adicionar mais VM
