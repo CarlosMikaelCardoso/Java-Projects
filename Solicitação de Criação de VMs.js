@@ -78,8 +78,9 @@ function criacao_vm(resposta) {
                       "💾 **Armazenamento**: " + quantoDeArmazenamento + "\n" +
                       "⚙️ **CPUs**: " + cpus + "\n";
 
-  // Verifica se o usuário deseja adicionar mais VMs
-  var opcao = resposta["Você solicitou a criação de 1 VM. Deseja solicitar mais uma VM?"];
+
+  // Verifica se o usuário deseja adicionar mais VM
+  var opcao1 = resposta["Você solicitou a criação de 1 VM. Deseja solicitar mais uma VM?"];
   if (opcao == "Sim"){
     // Detalhes da primeira VM
     nomeVm2 = resposta["Nome da VM 2:"] ? resposta["Nome da VM 2:"][0] : "Não fornecido";
@@ -96,7 +97,8 @@ function criacao_vm(resposta) {
                         "💾 **Armazenamento**: " + quantoDeArmazenamento2 + "\n" +
                         "⚙️ **CPUs**: " + cpus2 + "\n";
   }
-  var opcao = resposta["Você solicitou a criação de 1 VM. Deseja solicitar mais uma VM?"];
+  // Verifica se o usuário deseja adicionar mais uma VM
+  var opcao2 = resposta["Você solicitou a criação de 2 VMs. Deseja solicitar mais uma VM?"];
   if (opcao == "Sim"){
     // Detalhes da nova VM (mesmas perguntas para a nova VM)
     nomeVm3 = resposta["Nome da VM 3:"] ? resposta["Nome da VM 3:"][0] : "Não fornecido";
@@ -115,8 +117,9 @@ function criacao_vm(resposta) {
                     
   }
 
-  var opcao = resposta["Você solicitou a criação de 1 VM. Deseja solicitar mais uma VM?"];
-  if (opcao == "Sim"){
+  // Verifica se o usuário deseja adicionar mais uma VM
+  var opcao = resposta["Você solicitou a criação de 3 VMs. Deseja solicitar mais uma VM?"];
+  if (opcao3 == "Sim"){
     // Detalhes da nova VM (mesmas perguntas para a nova VM)
     nomeVm4 = resposta["Nome da VM 4:"] ? resposta["Nome da VM 4:"][0] : "Não fornecido";
     sistemaOperacional4 = resposta["Sistema Operacional 4:"] ? resposta["Sistema Operacional 4:"][0] : "Não fornecido";
@@ -133,11 +136,8 @@ function criacao_vm(resposta) {
                     "⚙️ **CPUs**: " + cpus4 + "\n";
   }
 
-
   // Criação do card para a primeira VM no Trello
   criarCardTrello(listId, titulo, descricaoCard);
-
-
 }
 
 
